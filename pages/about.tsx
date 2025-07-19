@@ -27,15 +27,15 @@ export default function About() {
             {/* Text content - full width for better readability */}
             <div className="max-w-4xl mx-auto space-y-6 text-lg text-gray-600">
               <p>
-                I'm Nick McPhee — a Computer Science and Software Engineering student with a strong foundation in backend development, automation, and real-world problem solving. I've worked part-time in tech roles alongside my studies, where I've built workflow automation systems using tools like <strong>n8n</strong>, integrated APIs such as <strong>VirusTotal</strong> and <strong>URLScan</strong>, and used AI tools to enhance developer productivity and decision-making.
+                I&apos;m Nick McPhee — a Computer Science and Software Engineering student with a strong foundation in backend development, automation, and real-world problem solving. I&apos;ve worked part-time in tech roles alongside my studies, where I&apos;ve built workflow automation systems using tools like <strong>n8n</strong>, integrated APIs such as <strong>VirusTotal</strong> and <strong>URLScan</strong>, and used AI tools to enhance developer productivity and decision-making.
               </p>
               
               <p>
-                My technical toolkit includes experience with languages like <strong>Python, Java, JavaScript, TypeScript</strong>, and <strong>SQL</strong>, as well as exposure to lower-level programming in <strong>Assembly</strong> and <strong>C</strong>. I've worked with a range of tools from <strong>Visual Studio Code</strong> and <strong>IntelliJ</strong>, to <strong>Postman</strong>, <strong>Git</strong>, <strong>Figma</strong>, and <strong>Oracle SQL</strong>. I'm comfortable managing databases, developing in Agile environments, and creating efficient, maintainable solutions from the ground up.
+                My technical toolkit includes experience with languages like <strong>Python, Java, JavaScript, TypeScript</strong>, and <strong>SQL</strong>, as well as exposure to lower-level programming in <strong>Assembly</strong> and <strong>C</strong>. I&apos;ve worked with a range of tools from <strong>Visual Studio Code</strong> and <strong>IntelliJ</strong>, to <strong>Postman</strong>, <strong>Git</strong>, <strong>Figma</strong>, and <strong>Oracle SQL</strong>. I&apos;m comfortable managing databases, developing in Agile environments, and creating efficient, maintainable solutions from the ground up.
               </p>
               
               <p>
-                Outside of formal coursework, I'm especially interested in <strong>backend systems, workflow automation, and the integration of large language models into real-world tooling</strong>. I believe the best software blends technical depth with real usability — and I enjoy building systems that make complex processes simpler and smarter.
+                Outside of formal coursework, I&apos;m especially interested in <strong>backend systems, workflow automation, and the integration of large language models into real-world tooling</strong>. I believe the best software blends technical depth with real usability — and I enjoy building systems that make complex processes simpler and smarter.
               </p>
             </div>
           </div>

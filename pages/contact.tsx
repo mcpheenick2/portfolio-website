@@ -12,7 +12,7 @@ export default function Contact() {
               Get In Touch
             </h1>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              I'm always interested in new opportunities, whether it's an internship, graduate position, 
+              I&apos;m always interested in new opportunities, whether it&apos;s an internship, graduate position, 
               interesting project collaborations, or just a chat about technology. Feel free to reach out!
             </p>
           </div>

@@ -24,7 +24,7 @@ const projects = [
   {
     id: 3,
     title: 'Agile Project Management Software',
-    description: 'Applied knowledge of Agile methodology to create a project management website tailored to support Agile practices. Expanded teamwork experience while enhancing proficiency in web development through Python\'s Flask framework. Applied usability principles such as user-centred design, learnability, and error prevention to maintain good UI and UX design. Researched Web Content Accessibility Guidelines (WCAG) during the design phase, implementing key measures to enhance accessibility.',
+    description: 'Applied knowledge of Agile methodology to create a project management website tailored to support Agile practices. Expanded teamwork experience while enhancing proficiency in web development through Python&apos;s Flask framework. Applied usability principles such as user-centred design, learnability, and error prevention to maintain good UI and UX design. Researched Web Content Accessibility Guidelines (WCAG) during the design phase, implementing key measures to enhance accessibility.',
     image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=300&fit=crop',
     technologies: ['Python', 'Flask', 'HTML', 'CSS', 'JavaScript', 'Git', 'WCAG', 'Agile'],
     date: 'October 2023',
@@ -41,7 +41,7 @@ const projects = [
   },
   {
     id: 5,
-    title: '\'Fines\' Management System For Hockey Club',
+    title: '&apos;Fines&apos; Management System For Hockey Club',
     description: 'Developed a Python application to track the amount of money each player owed to the club each time they infringed upon a set of rules. Utilised python to generate a Microsoft excel spreadsheet, displaying current or previous owing amounts. Applied Object Oriented Design principles such as encapsulation, abstraction, and adherence to SOLID principles.',
     image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400&h=300&fit=crop',
     technologies: ['Python', 'Excel Generation', 'OOP Design', 'SOLID Principles', 'Application Debugging'],

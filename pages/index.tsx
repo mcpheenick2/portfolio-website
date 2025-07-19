@@ -12,7 +12,7 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="text-center lg:text-left order-2 lg:order-1">
               <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
-                Hi, I'm{' '}
+                Hi, I&apos;m{' '}
                 <span className="text-primary">Nick McPhee</span>
               </h1>
               <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto lg:mx-0">
@@ -163,7 +163,7 @@ export default function Home() {
                   <span className="bg-gray-200 px-2 py-1 rounded-full text-xs mr-2">Personal Project</span>
                   <span>February 2023</span>
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">'Fines' Management System For Hockey Club</h3>
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">&apos;Fines&apos; Management System For Hockey Club</h3>
                 <p className="text-gray-600 mb-4">
                   Developed a Python application to track player fines using Object-Oriented Design principles, generating Excel spreadsheets for financial tracking and club activities.
                 </p>
