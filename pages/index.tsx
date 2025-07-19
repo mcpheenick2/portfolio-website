@@ -24,10 +24,6 @@ export default function Home() {
                   View My Work
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
-                <a href="/resume.pdf" download className="btn-secondary inline-flex items-center">
-                  <Download className="mr-2 h-5 w-5" />
-                  Download Resume
-                </a>
               </div>
             </div>
             <div className="flex justify-center lg:justify-end order-1 lg:order-2">
