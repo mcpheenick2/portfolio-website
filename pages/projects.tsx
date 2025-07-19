@@ -25,7 +25,7 @@ const projects = [
   {
     id: 3,
     title: 'Agile Project Management Software',
-    description: 'Applied knowledge of Agile methodology to create a project management website tailored to support Agile practices. Expanded teamwork experience while enhancing proficiency in web development through Python&apos;s Flask framework. Applied usability principles such as user-centred design, learnability, and error prevention to maintain good UI and UX design. Researched Web Content Accessibility Guidelines (WCAG) during the design phase, implementing key measures to enhance accessibility.',
+    description: 'Applied knowledge of Agile methodology to create a project management website tailored to support Agile practices. Expanded teamwork experience while enhancing proficiency in web development through the Python Flask framework. Applied usability principles such as user-centred design, learnability, and error prevention to maintain good UI and UX design. Researched Web Content Accessibility Guidelines (WCAG) during the design phase, implementing key measures to enhance accessibility.',
     image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=300&fit=crop',
     technologies: ['Python', 'Flask', 'HTML', 'CSS', 'JavaScript', 'Git', 'WCAG', 'Agile'],
     date: 'October 2023',
