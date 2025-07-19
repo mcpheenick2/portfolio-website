@@ -1,5 +1,6 @@
 import Layout from '@/components/Layout'
 import ProjectCard from '@/components/ProjectCard'
+import Link from 'next/link'
 
 // Real projects from Nick's resume - sorted by date (most recent first)
 const projects = [
@@ -69,7 +70,7 @@ export default function Projects() {
               My Projects
             </h1>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Here's a collection of projects I've worked on, ranging from web applications 
+              Here&apos;s a collection of projects I&apos;ve worked on, ranging from web applications 
               to mobile apps. Each project represents a unique challenge and learning opportunity.
             </p>
           </div>
@@ -86,14 +87,14 @@ export default function Projects() {
               Interested in working together?
             </h2>
             <p className="text-gray-600 mb-6">
-              I'm always open to discussing new opportunities and interesting projects.
+              I&apos;m always open to discussing new opportunities and interesting projects.
             </p>
-            <a
+            <Link
               href="/contact"
               className="btn-primary"
             >
               Get In Touch
-            </a>
+            </Link>
           </div>
         </div>
       </section>
