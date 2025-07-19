@@ -16,7 +16,7 @@ export default function Home() {
                 <span className="text-primary">Nick McPhee</span>
               </h1>
               <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto lg:mx-0">
-                Computer Science & Software Engineering student with hands-on experience in backend development, 
+                Computer Science & Software Engineering student with a strong foundation in backend development, 
                 workflow automation, and API integration. I build systems that make complex processes simpler and smarter.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">

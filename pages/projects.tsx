@@ -16,7 +16,7 @@ const projects = [
   {
     id: 2,
     title: 'Personal Portfolio Website (This Site)',
-    description: 'A responsive portfolio website built with Next.js, TypeScript, and Tailwind CSS to showcase my projects, skills, and experience. Features modern design principles, optimized performance, and professional branding with custom logo design. Demonstrates proficiency in frontend development, responsive design, and modern web technologies.',
+    description: 'A responsive portfolio website built with Next.js, TypeScript, and Tailwind CSS to showcase my projects, skills, and experience. Features modern design principles, optimized performance, and professional branding. Demonstrates proficiency in frontend development, responsive design, and modern web technologies.',
     image: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=400&h=300&fit=crop',
     technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'React', 'Responsive Design', 'SVG'],
     date: 'July 2025',
@@ -42,7 +42,7 @@ const projects = [
   },
   {
     id: 5,
-    title: '&apos;Fines&apos; Management System For Hockey Club',
+    title: 'Fines Management System For Hockey Club',
     description: 'Developed a Python application to track the amount of money each player owed to the club each time they infringed upon a set of rules. Utilised python to generate a Microsoft excel spreadsheet, displaying current or previous owing amounts. Applied Object Oriented Design principles such as encapsulation, abstraction, and adherence to SOLID principles.',
     image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400&h=300&fit=crop',
     technologies: ['Python', 'Excel Generation', 'OOP Design', 'SOLID Principles', 'Application Debugging'],
