@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { useState } from 'react'
 import { Menu, X } from 'lucide-react'
+import DarkModeToggle from './DarkModeToggle'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -13,12 +14,12 @@ const Header = () => {
   ]
 
   return (
-    <header className="bg-white shadow-sm border-b">
+    <header className="bg-white shadow-sm border-b dark:bg-gray-900 dark:border-gray-700">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Link href="/" className="flex items-center space-x-3 text-xl font-bold text-gray-900 hover:text-primary transition-colors">
+            <Link href="/" className="flex items-center space-x-3 text-xl font-bold text-gray-900 hover:text-primary transition-colors dark:text-white">
               {/* NM Logo */}
               <div className="w-8 h-8 bg-primary rounded flex items-center justify-center">
                 <span className="text-white text-sm font-bold">NM</span>
@@ -28,18 +29,19 @@ const Header = () => {
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:block">
-            <div className="ml-10 flex items-baseline space-x-8">
+          <div className="hidden md:flex items-center space-x-4">
+            <div className="flex items-baseline space-x-8">
               {navigation.map((item) => (
                 <Link
                   key={item.name}
                   href={item.href}
-                  className="text-gray-600 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors"
+                  className="text-gray-600 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors dark:text-gray-300 dark:hover:text-primary"
                 >
                   {item.name}
                 </Link>
               ))}
             </div>
+            <DarkModeToggle />
           </div>
 
           {/* Mobile menu button */}
