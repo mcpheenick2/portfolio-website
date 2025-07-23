@@ -70,8 +70,7 @@ export default function Projects() {
               My Projects
             </h1>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Here&apos;s a collection of projects I&apos;ve worked on, ranging from web applications 
-              to mobile apps. Each project represents a unique challenge and learning opportunity.
+            A diverse mix of projects spanning web development, automation, embedded systems, and personal software tools — each one a unique opportunity to learn, build, and solve real-world problems.
             </p>
           </div>
 
